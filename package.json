@@ -1,0 +1,9 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080",
+    "publish": "git add -A && git commit -m \"chore: publish\" && git push"
+  }
+}
